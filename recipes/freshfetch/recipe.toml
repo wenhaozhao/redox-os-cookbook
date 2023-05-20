@@ -1,0 +1,8 @@
+#TODO Compilation error (Redox not supported)
+[source]
+git = "https://github.com/K4rakara/freshfetch"
+[build]
+template = "custom"
+script = """
+cookbook_cargo_packages vv
+"""

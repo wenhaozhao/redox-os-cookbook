@@ -1,0 +1,4 @@
+[source]
+tar = "https://github.com/juan-leon/lowcharts/archive/refs/tags/v0.5.8.tar.gz"
+[build]
+template = "cargo"

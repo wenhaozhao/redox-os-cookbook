@@ -1,0 +1,6 @@
+#TODO compiled but not tested
+[source]
+git = "https://git.sr.ht/~f9/gyr"
+rev = "78bf2730351fec8f9d22b1772473e9ef4363a1c0"
+[build]
+template = "cargo"

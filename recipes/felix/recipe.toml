@@ -1,0 +1,5 @@
+#TODO link error: getgroups
+[source]
+tar = "https://github.com/kyoheiu/felix/archive/refs/tags/v2.2.8.tar.gz"
+[build]
+template = "cargo"
