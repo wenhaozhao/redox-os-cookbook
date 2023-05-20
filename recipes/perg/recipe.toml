@@ -1,5 +1,4 @@
 [source]
-git = "https://github.com/guerinoni/perg.git"
-rev = "e206fab6bbd9c363c686fa7503d318304e48ddbe"
+tar = "https://github.com/guerinoni/perg/archive/refs/tags/0.6.0.tar.gz"
 [build]
 template = "cargo"

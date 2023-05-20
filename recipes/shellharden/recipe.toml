@@ -1,5 +1,4 @@
 [source]
-git = "https://github.com/anordal/shellharden.git"
-rev = "bd24c99d5d1e76452b6d0749404837c1c95d923c"
+tar = "https://github.com/anordal/shellharden/archive/refs/tags/v4.3.0.tar.gz"
 [build]
 template = "cargo"

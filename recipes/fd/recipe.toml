@@ -1,5 +1,4 @@
 [source]
-git = "https://github.com/sharkdp/fd.git"
-rev = "840a565d3aadbeb303b10a01c0aa3561924dfc46"
+tar = "https://github.com/sharkdp/fd/archive/refs/tags/v8.7.0.tar.gz"
 [build]
 template = "cargo"

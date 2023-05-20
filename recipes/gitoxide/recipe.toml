@@ -1,6 +1,5 @@
 [source]
-git = "https://github.com/Byron/gitoxide.git"
-
+tar = "https://github.com/Byron/gitoxide/archive/refs/tags/v0.25.0.tar.gz"
 [build]
 dependencies = [
     "openssl",
