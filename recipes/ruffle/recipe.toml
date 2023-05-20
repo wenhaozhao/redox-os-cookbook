@@ -1,0 +1,12 @@
+#TODO Incomplete dependency and maybe require X11/Wayland
+[source]
+git = "https://github.com/ruffle-rs/ruffle"
+[build]
+template = "custom"
+dependencies = [
+	"openssl",
+	"java19",
+]
+script = """
+cookbook_cargo_packages ruffle_desktop
+"""

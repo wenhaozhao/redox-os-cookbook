@@ -1,0 +1,4 @@
+[source]
+tar = "https://github.com/nabijaczleweli/termimage/archive/refs/tags/v1.2.0.tar.gz"
+[build]
+template = "cargo"

@@ -1,0 +1,5 @@
+#TODO compiled but not tested
+[source]
+tar = "https://github.com/o2sh/onefetch/archive/refs/tags/2.17.1.tar.gz"
+[build]
+template = "cargo"

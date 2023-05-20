@@ -1,0 +1,5 @@
+#TODO Not compiled/tested yet
+[source]
+git = "https://github.com/developomp/pomky"
+[build]
+template = "cargo"
