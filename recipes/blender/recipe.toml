@@ -1,0 +1,30 @@
+#TODO
+[source]
+tar = "https://download.blender.org/source/blender-3.5.1.tar.xz"
+[build]
+template = "custom"
+dependencies = [
+    "dbus",
+    "libdecor",
+    "libjpeg",
+    "libpng",
+    "freetype",
+    "fontconfig",
+    "zstd",
+    "bzip2",
+    "xz",
+    "sdl2",
+    "libepoxy",
+    "shaderc",
+    "libxml2",
+    "libharu",
+]
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+)
+"""
