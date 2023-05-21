@@ -1,0 +1,6 @@
+#TODO Incomplete dependencies/script, confusing dependencies
+[source]
+git = "https://git.ardour.org/ardour/ardour"
+rev = "5e967c02a9cfc2fffadc9d0edca294ff193481fd"
+[build]
+template = "custom"
