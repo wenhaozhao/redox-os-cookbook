@@ -1,0 +1,5 @@
+#TODO Compilation error (maybe require porting to orbclient)
+[source]
+tar = "https://github.com/nigels-com/glew/archive/refs/tags/glew-2.2.0.tar.gz"
+[build]
+template = "configure"
