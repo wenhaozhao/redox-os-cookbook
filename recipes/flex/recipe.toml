@@ -1,0 +1,9 @@
+#TODO Not compiled/tested yet
+[source]
+tar = "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz"
+blake3 = "d78b714ac38bd9de7f9b44a078efed82e96ed43e7cf9cd33944a7f379a2d09a4"
+script = """
+./autogen.sh
+"""
+[build]
+template = "configure"
