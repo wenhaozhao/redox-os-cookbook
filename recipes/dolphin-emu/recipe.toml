@@ -1,0 +1,9 @@
+#TODO Incomplete dependencies? and script
+[source]
+git = "https://github.com/dolphin-emu/dolphin.git"
+[build]
+template = "custom"
+dependencies = [
+    "openal",
+    "ffmpeg",
+]
