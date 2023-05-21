@@ -1,0 +1,6 @@
+#TODO Not compiled/tested yet
+[source]
+tar = "https://fftw.org/fftw-3.3.10.tar.gz"
+blake3 = "0728474d28c67662b9034e9ce62b62e8c6d3242f9337106107c9791b5f3b3d14"
+[build]
+template = "configure"
