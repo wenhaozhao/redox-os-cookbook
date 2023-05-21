@@ -1,0 +1,15 @@
+#TODO compiled but not tested
+[source]
+git = "https://github.com/fltk/fltk"
+rev = "3600522ae7d2244b69552458e4d82f869a36067b"
+[build]
+template = "custom"
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+)
+"""
