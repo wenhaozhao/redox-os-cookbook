@@ -1,0 +1,13 @@
+#TODO Not compiled/tested yet
+[source]
+tar = "https://github.com/assaultcube/AC/archive/refs/tags/v1.3.0.2.tar.gz"
+[build]
+template = "configure"
+dependencies = [
+    "sdl",
+    "sdl_image",
+    "openssl",
+    "openal",
+    "libogg",
+    "zlib",
+]
