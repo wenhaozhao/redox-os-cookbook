@@ -1,0 +1,14 @@
+#TODO compiled but not tested
+[source]
+tar = "https://download.gnome.org/sources/gobject-introspection/1.76/gobject-introspection-1.76.1.tar.xz"
+[build]
+template = "custom"
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+)
+"""
