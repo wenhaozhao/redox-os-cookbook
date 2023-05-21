@@ -1,0 +1,22 @@
+#TODO Not compiled/tested yet (incomplete?)
+[source]
+git = "https://github.com/brndnmtthws/conky"
+rev = "4b4fb7aa9b46d79df2bc7c2140c0f7edfdb9d7a6"
+[build]
+template = "custom"
+dependencies = [
+    "imlib2",
+    "ncurses",
+    "libxml2",
+    "curl",
+    "lua",
+]
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+)
+"""
