@@ -1,0 +1,23 @@
+#TODO Require GTK
+[source]
+tar = "https://ftp.mozilla.org/pub/firefox/releases/113.0/source/firefox-113.0.source.tar.xz"
+[build]
+template = "custom"
+dependencies = [
+    "fontconfig",
+    "atk",
+    "cairo",
+    "dbus",
+    "libffi",
+    "freetype",
+    "gdk-pixbuf",
+    "glib",
+    "gtk3",
+    "pango",
+    "sqlite",
+    "nss-nspr",
+    "startup-notification",
+    "zlib",
+    "libvpx",
+    "ffmpeg",
+]
