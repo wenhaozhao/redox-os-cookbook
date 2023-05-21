@@ -1,0 +1,6 @@
+#TODO Incomplete script
+[source]
+tar = "https://dbus.freedesktop.org/releases/dbus/dbus-1.14.6.tar.xz"
+blake3 = "a4c6e9e4acada3067a0812e9fa5046ee34171e542aebac70d9cd247fd7db5611"
+[build]
+template = "custom"
