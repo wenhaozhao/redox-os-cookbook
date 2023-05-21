@@ -1,0 +1,5 @@
+#TODO Incomplete script
+[source]
+tar = "https://github.com/ebassi/graphene/archive/refs/tags/1.10.8.tar.gz"
+[build]
+template = "custom"
