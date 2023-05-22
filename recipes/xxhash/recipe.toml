@@ -1,0 +1,5 @@
+#TODO Weird CMake build system
+[source]
+tar = "https://github.com/Cyan4973/xxHash/archive/refs/tags/v0.8.1.tar.gz"
+[build]
+template = "custom"
