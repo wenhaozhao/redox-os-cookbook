@@ -1,0 +1,19 @@
+#TODO Not compiled/tested yet, maybe require patches on submodules
+[source]
+git = "https://github.com/PCSX2/pcsx2.git"
+[build]
+template = "custom"
+dependencies = [
+    "sdl2",
+    "xz",
+    "libpng",
+]
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+)
+"""
