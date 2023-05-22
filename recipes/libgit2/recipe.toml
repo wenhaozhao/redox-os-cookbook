@@ -1,0 +1,17 @@
+#TODO Not compiled/tested yet
+[source]
+tar = "https://github.com/libgit2/libgit2/archive/refs/tags/v1.6.4.tar.gz"
+[build]
+template = "custom"
+dependencies = [
+    "openssl",
+]
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+)
+"""
