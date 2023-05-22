@@ -1,0 +1,6 @@
+#TODO Compilation error
+[source]
+tar = "https://ftp.gnu.org/gnu/texinfo/texinfo-7.0.3.tar.xz"
+blake3 = "f5f103698ea6460ec6dbfa533cae830aa4a1c44d20e65479514468a360565e38"
+[build]
+template = "configure"
