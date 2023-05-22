@@ -1,0 +1,27 @@
+#TODO Not compiled/tested yet, maybe GLEW needs porting
+#git_upstream = "https://github.com/yvt/openspades"
+[source]
+git = "https://github.com/siecvi/zerospades.git"
+[build]
+template = "custom"
+dependencies = [
+	"glew",
+	"openssl",
+	"sdl2",
+	"sdl2_image",
+	"freealut",
+	"freetype",
+	"opus",
+	"opusfile",
+	"libjpeg",
+	"openal",
+]
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+)
+"""
