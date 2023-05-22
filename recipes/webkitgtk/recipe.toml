@@ -1,0 +1,5 @@
+#TODO
+[source]
+tar = "https://webkitgtk.org/releases/webkitgtk-2.41.4.tar.xz"
+[build]
+template = "configure"
