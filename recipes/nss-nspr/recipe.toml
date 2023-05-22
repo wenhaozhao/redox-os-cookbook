@@ -1,0 +1,6 @@
+#TODO Require custom installation path
+[source]
+tar = "https://ftp.mozilla.org/pub/security/nss/releases/NSS_3_89_1_RTM/src/nss-3.89.1-with-nspr-4.35.tar.gz"
+blake3 = "cd69c8e82d16f51fa2d8ba4a69cc66a8a058fab39af7a7cb1bfb740c06edd88d"
+[build]
+template = "custom"
