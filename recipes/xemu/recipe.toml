@@ -1,0 +1,19 @@
+#TODO Not compiled/tested yet, maybe require patches on submodules
+[source]
+tar = "https://github.com/xemu-project/xemu/releases/download/v0.7.90/src.tar.gz"
+[build]
+template = "custom"
+dependencies = [
+    "sdl2",
+    "libepoxy",
+    "libsamplerate",
+]
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+)
+"""
