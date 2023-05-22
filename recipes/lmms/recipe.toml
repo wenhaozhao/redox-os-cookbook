@@ -1,0 +1,26 @@
+#TODO Not compiled/tested yet, require Qt
+[source]
+git = "https://github.com/LMMS/lmms"
+[build]
+template = "custom"
+dependencies = [
+    "qt5",
+    "libsamplerate",
+    "libvorbis",
+    "libogg",
+    "sdl2",
+    "fftw",
+    "libstk",
+    "fltk",
+    "libportaudio",
+    "libsoundio",
+]
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+)
+"""
