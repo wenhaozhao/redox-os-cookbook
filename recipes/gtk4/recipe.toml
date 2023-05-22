@@ -1,0 +1,25 @@
+#TODO Require X11/Wayland
+[source]
+tar = "https://download.gnome.org/sources/gtk/4.11/gtk-4.11.2.tar.xz"
+[build]
+template = "custom"
+dependencies = [
+    "glib",
+    "gdk-pixbuf",
+    "pango",
+    "cairo",
+    "libepoxy",
+    "atk",
+    "gobject-introspection",
+    "shared-mime-info",
+    "graphene",
+]
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+)
+"""
