@@ -1,0 +1,23 @@
+#TODO Not compiled/tested yet, maybe require patches on submodules
+[source]
+tar = "https://git.skyjake.fi/gemini/lagrange/releases/download/v1.15.8/lagrange-1.15.8.tar.gz"
+[build]
+template = "custom"
+dependencies = [
+    "sdl2",
+    "openssl",
+    "zlib",
+    "harfbuzz",
+    "pcre",
+    "fribidi",
+    "libunistring",
+]
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+)
+"""
