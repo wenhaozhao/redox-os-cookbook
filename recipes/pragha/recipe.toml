@@ -1,0 +1,14 @@
+#TODO Not compiled/tested yet, require GTK
+[source]
+git = "https://github.com/pragha-music-player/pragha.git"
+[build]
+template = "configure"
+dependencies = [
+    "gtk3",
+    "glib",
+    "gstreamer",
+    "taglib",
+    "sqlite",
+    "libpeas",
+    "totem-plparser",
+]
