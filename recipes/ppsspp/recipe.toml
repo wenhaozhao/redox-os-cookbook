@@ -1,0 +1,18 @@
+#TODO Not compiled/tested yet, maybe require patches on submodules
+[source]
+tar = "https://github.com/hrydgard/ppsspp.git"
+[build]
+template = "custom"
+dependencies = [
+    "sdl2",
+    "mesa",
+]
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+)
+"""
