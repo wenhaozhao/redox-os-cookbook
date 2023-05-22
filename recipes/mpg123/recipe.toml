@@ -1,0 +1,6 @@
+#TODO compilation error
+[source]
+tar = "https://mpg123.de/download/mpg123-1.31.3.tar.bz2"
+blake3 = "3d91292c535a74e1c9e1dcbdb74eb358400cea85d5f7976804634f9b599e82f3"
+[build]
+template = "configure"
