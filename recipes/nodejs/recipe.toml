@@ -1,0 +1,6 @@
+#TODO Outdated compiler
+[source]
+tar = "https://nodejs.org/dist/v20.1.0/node-v20.1.0.tar.gz"
+blake3 = "f1ebcb425a2522039f894c731b92cd890691a7050fa8fb551a6862b1c7a76108"
+[build]
+template = "configure"
