@@ -1,0 +1,10 @@
+#TODO Not compiled/tested yet, incomplete script (waf build system)
+[source]
+git = "https://github.com/FWGS/xash3d-fwgs"
+[build]
+template = "custom"
+dependencies = [
+    "sdl2",
+    "fontconfig",
+    "freetype",
+]
