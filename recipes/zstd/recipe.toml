@@ -1,0 +1,6 @@
+#TODO Not compiled/tested yet, maybe wrong script
+[source]
+tar = "https://github.com/facebook/zstd/releases/download/v1.5.5/zstd-1.5.5.tar.gz"
+blake3 = "1d5a2f321553b474179a3c88c00038b1b529087cf5f39fb47445b6b8558ed684"
+[build]
+template = "configure"
