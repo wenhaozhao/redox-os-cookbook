@@ -1,0 +1,6 @@
+#TODO Not compiled/tested yet
+[source]
+tar = "https://luajit.org/download/LuaJIT-2.1.0-beta3.tar.gz"
+blake3 = "96bd817e4f6ac3675c60aa1836d7e586e7955d66a272a28182049c5dfd966c4f"
+[build]
+template = "configure"
