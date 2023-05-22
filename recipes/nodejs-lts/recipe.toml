@@ -1,0 +1,6 @@
+#TODO Outdated compiler
+[source]
+tar = "https://nodejs.org/dist/v18.16.0/node-v18.16.0.tar.gz"
+blake3 = "22f48f7ce16b801f6ea353721e81160cb1ff65012388f127a2524c5937f9873f"
+[build]
+template = "configure"
