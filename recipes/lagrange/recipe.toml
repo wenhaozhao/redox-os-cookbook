@@ -1,4 +1,4 @@
-#TODO Not compiled/tested yet, maybe require patches on submodules
+#TODO Not compiled/tested yet.
 [source]
 tar = "https://git.skyjake.fi/gemini/lagrange/releases/download/v1.15.8/lagrange-1.15.8.tar.gz"
 [build]
@@ -19,5 +19,8 @@ script = """
 	-DCMAKE_CROSSCOMPILING=True
 	-DCMAKE_EXE_LINKER_FLAGS="-static"
 	-DCMAKE_INSTALL_PREFIX="/"
+    -DENABLE_MPG123=OFF
 )
 """
+
+# mpg123 dependency broken
