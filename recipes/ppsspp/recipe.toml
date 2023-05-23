@@ -1,4 +1,4 @@
-#TODO Not compiled/tested yet, maybe require patches on submodules
+#TODO Not compiled/tested yet.
 [source]
 tar = "https://github.com/hrydgard/ppsspp.git"
 [build]
@@ -14,5 +14,7 @@ script = """
 	-DCMAKE_CROSSCOMPILING=True
 	-DCMAKE_EXE_LINKER_FLAGS="-static"
 	-DCMAKE_INSTALL_PREFIX="/"
+    -DUSE_FFMPEG=OFF
+    -DUSE_DISCORD=OFF
 )
 """
