@@ -12,6 +12,8 @@ dependencies = [
     "openal",
     "zlib",
     "libpng",
+    "libevdev",
+    "libedit",
 ]
 script = """
     COOKBOOK_CONFIGURE="cmake"
