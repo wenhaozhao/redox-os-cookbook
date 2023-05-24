@@ -1,0 +1,5 @@
+#TODO
+[source]
+git = "https://github.com/Elkowar/pipr"
+[build]
+template = "cargo"
