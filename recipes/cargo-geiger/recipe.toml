@@ -1,0 +1,5 @@
+#TODO
+[source]
+tar = "https://github.com/rust-secure-code/cargo-geiger/archive/refs/tags/cargo-geiger-0.11.6.tar.gz"
+[build]
+template = "cargo"
