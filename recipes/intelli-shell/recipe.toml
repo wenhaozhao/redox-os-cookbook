@@ -1,0 +1,5 @@
+#TODO
+[source]
+tar = "https://github.com/lasantosr/intelli-shell/archive/refs/tags/v0.2.6.tar.gz"
+[build]
+template = "cargo"
