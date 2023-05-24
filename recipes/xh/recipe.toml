@@ -1,0 +1,5 @@
+#TODO
+[source]
+tar = "https://github.com/ducaale/xh/archive/refs/tags/v0.18.0.tar.gz"
+[build]
+template = "cargo"
