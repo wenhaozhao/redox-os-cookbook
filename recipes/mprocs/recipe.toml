@@ -1,0 +1,5 @@
+#TODO
+[source]
+tar = "https://github.com/pvolok/mprocs/archive/refs/tags/v0.6.4.tar.gz"
+[build]
+template = "cargo"
