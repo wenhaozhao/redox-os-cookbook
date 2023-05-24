@@ -1,0 +1,9 @@
+#TODO
+[source]
+git = "https://github.com/imager-io/imager"
+[build]
+template = "cargo"
+dependencies = [
+    "xz",
+    "openssl",
+]
