@@ -1,0 +1,5 @@
+#TODO
+[source]
+tar = "https://github.com/PaddiM8/kalker/archive/refs/tags/v2.0.3.tar.gz"
+[build]
+template = "cargo"
