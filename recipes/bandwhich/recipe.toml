@@ -1,0 +1,5 @@
+#TODO
+[source]
+tar = "https://github.com/imsnif/bandwhich/archive/refs/tags/0.20.0.tar.gz"
+[build]
+template = "cargo"
