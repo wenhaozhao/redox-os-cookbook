@@ -3,3 +3,12 @@
 tar = "https://github.com/soywod/himalaya/archive/refs/tags/v0.7.3.tar.gz"
 [build]
 template = "cargo"
+dependencies = [
+    "openssl",
+]
+template = "custom"
+script = """
+export OPENSSL_DIR="${COOKBOOK_SYSROOT}"
+export OPENSSL_STATIC="true"
+cookbook_cargo
+"""
