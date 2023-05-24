@@ -1,0 +1,5 @@
+#TODO
+[source]
+tar = "https://github.com/denoland/deno/releases/download/v1.33.4/deno_src.tar.gz"
+[build]
+template = "cargo"
