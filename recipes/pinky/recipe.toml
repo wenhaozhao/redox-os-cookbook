@@ -1,0 +1,8 @@
+#TODO
+[source]
+git = "https://github.com/koute/pinky"
+[build]
+template = "custom"
+script = """
+cookbook_cargo_packages pinky-devui
+"""
