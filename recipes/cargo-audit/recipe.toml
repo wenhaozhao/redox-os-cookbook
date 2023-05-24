@@ -1,0 +1,5 @@
+#TODO
+[source]
+tar = "https://github.com/rustsec/rustsec/archive/refs/tags/cargo-audit/v0.17.6.tar.gz"
+[build]
+template = "cargo"
