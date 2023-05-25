@@ -1,0 +1,13 @@
+#TODO
+[source]
+tar = "https://github.com/immunant/c2rust/archive/refs/tags/v0.17.0.tar.gz"
+[build]
+template = "cargo"
+dependencies = [
+    "openssl",
+]
+script = """
+export OPENSSL_DIR="${COOKBOOK_SYSROOT}"
+export OPENSSL_STATIC="true"
+cookbook_cargo
+"""
