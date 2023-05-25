@@ -1,0 +1,5 @@
+#TODO
+[source]
+git = "https://github.com/deps-rs/deps.rs"
+[build]
+template = "cargo"
