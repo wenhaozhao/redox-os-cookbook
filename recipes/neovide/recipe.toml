@@ -1,0 +1,14 @@
+#TODO Require X11
+[source]
+tar = "https://github.com/neovide/neovide/archive/refs/tags/0.10.4.tar.gz"
+[build]
+template = "cargo"
+dependencies = [
+    "neovim",
+    "openssl",
+    "freetype",
+    "expat",
+    "bzip2",
+    "freeglut",
+    "fontconfig",
+]
