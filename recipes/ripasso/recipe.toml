@@ -1,0 +1,8 @@
+#TODO
+[source]
+git = "https://github.com/cortex/ripasso"
+[build]
+template = "custom"
+script = """
+cookbook_cargo_packages ripasso-cursive
+"""
