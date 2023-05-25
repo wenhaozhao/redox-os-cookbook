@@ -1,0 +1,5 @@
+#TODO
+[source]
+git = "https://github.com/yaa110/cb"
+[build]
+template = "cargo"
