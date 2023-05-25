@@ -1,0 +1,5 @@
+#TODO
+[source]
+tar = "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.41.tar.bz2"
+[build]
+template = "configure"
