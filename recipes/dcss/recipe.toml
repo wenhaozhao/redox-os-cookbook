@@ -1,0 +1,15 @@
+#TODO make-only build system and require DejaVu fonts
+[source]
+tar = "https://github.com/crawl/crawl/releases/download/0.30.0/stone_soup-0.30.0.tar.xz"
+[build]
+template = "custom"
+dependencies = [
+    "lua",
+    "sdl2",
+    "sdl2_image",
+    "sqlite",
+    "ncurses",
+    "pcre",
+    "zlib",
+    "libpng",
+]
