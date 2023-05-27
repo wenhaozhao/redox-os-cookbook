@@ -1,0 +1,5 @@
+#TODO make-only build system
+[source]
+tar = "https://github.com/official-stockfish/Stockfish/archive/refs/tags/sf_15.1.tar.gz"
+[build]
+template = "custom"
