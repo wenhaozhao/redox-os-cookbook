@@ -1,4 +1,4 @@
-#TODO
+#TODO ring crate compilation error
 [source]
 git = "https://github.com/mufeedvh/binserve"
 [build]
