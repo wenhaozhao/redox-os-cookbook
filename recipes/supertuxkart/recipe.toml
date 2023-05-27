@@ -1,0 +1,27 @@
+#TODO
+[source]
+tar = "https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-src.tar.xz"
+[build]
+template = "custom"
+dependencies = [
+    "openal",
+    "libogg",
+    "libvorbis",
+    "freetype",
+    "harfbuzz",
+    "curl",
+    "openssl",
+    "libpng",
+    "zlib",
+    "libjpeg",
+    "sdl2",
+]
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+)
+"""
