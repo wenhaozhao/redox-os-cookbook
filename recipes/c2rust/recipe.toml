@@ -2,12 +2,10 @@
 [source]
 tar = "https://github.com/immunant/c2rust/archive/refs/tags/v0.17.0.tar.gz"
 [build]
-template = "cargo"
+template = "custom"
 dependencies = [
     "openssl",
 ]
 script = """
-export OPENSSL_DIR="${COOKBOOK_SYSROOT}"
-export OPENSSL_STATIC="true"
-cookbook_cargo
+cookbook_cargo_packages c2rust
 """
