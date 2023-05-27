@@ -1,5 +1,8 @@
-#TODO
+#TODO tokio compilation error
 [source]
 tar = "https://github.com/ellie/atuin/archive/refs/tags/v14.0.1.tar.gz"
 [build]
-template = "cargo"
+template = "custom"
+script = """
+cookbook_cargo_packages atuin
+"""
