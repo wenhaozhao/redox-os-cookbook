@@ -2,4 +2,7 @@
 [source]
 tar = "https://github.com/rustsec/rustsec/archive/refs/tags/cargo-audit/v0.17.6.tar.gz"
 [build]
-template = "cargo"
+template = "custom"
+script = """
+cookbook_cargo_packages cargo-audit
+"""
