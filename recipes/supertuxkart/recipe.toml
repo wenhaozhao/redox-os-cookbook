@@ -23,5 +23,7 @@ script = """
 	-DCMAKE_CROSSCOMPILING=True
 	-DCMAKE_EXE_LINKER_FLAGS="-static"
 	-DCMAKE_INSTALL_PREFIX="/"
+    -DNO_SHADERC=on
+    -DBUILD_RECORDER=off
 )
 """
