@@ -5,6 +5,7 @@ tar = "https://github.com/rustsec/rustsec/archive/refs/tags/cargo-audit/v0.17.6.
 template = "custom"
 dependencies = [
     "openssl",
+    "libssh2",
 ]
 script = """
 export OPENSSL_DIR="${COOKBOOK_SYSROOT}"
