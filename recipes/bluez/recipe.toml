@@ -1,0 +1,5 @@
+#TODO Needs to be ported
+[source]
+tar = "http://www.kernel.org/pub/linux/bluetooth/bluez-5.66.tar.xz"
+[build]
+template = "custom"
