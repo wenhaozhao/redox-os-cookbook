@@ -1,4 +1,4 @@
-#TODO Compilation error
+#TODO openssl-sys crate compilation error
 [source]
 tar = "https://github.com/mihaigalos/aim/archive/refs/tags/1.8.3.tar.gz"
 [build]
