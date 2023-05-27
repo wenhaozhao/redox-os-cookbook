@@ -1,0 +1,5 @@
+#TODO Custom build system with premake and CMake available
+[source]
+tar = "https://github.com/bulletphysics/bullet3/archive/refs/tags/3.25.tar.gz"
+[build]
+template = "custom"
