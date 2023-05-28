@@ -1,0 +1,8 @@
+#TODO maybe wrong template
+[source]
+tar = "https://github.com/schismtracker/schismtracker/archive/20181223.tar.gz"
+patches = [
+    "01_redox.patch",
+]
+[build]
+template = "configure"
