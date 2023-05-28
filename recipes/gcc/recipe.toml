@@ -1,0 +1,9 @@
+#TODO missing script for build system
+[source]
+tar = "https://gitlab.redox-os.org/redox-os/gcc/-/archive/redox/gcc-redox.tar.gz"
+[build]
+template = "custom"
+dependencies = [
+    "relibc",
+    "gnu-binutils",
+]
