@@ -1,0 +1,8 @@
+#TODO maybe missing stuff
+[source]
+tar = "http://www.digip.org/jansson/releases/jansson-2.10.tar.gz"
+patches = [
+    "jansson.patch",
+]
+[build]
+template = "configure"
