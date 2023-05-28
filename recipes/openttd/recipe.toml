@@ -1,0 +1,17 @@
+#TODO missing script
+[source]
+git = "https://github.com/OpenTTD/OpenTTD.git"
+branch = "release/1.8"
+patches = [
+    "01_redox.patch",
+]
+[build]
+template = "custom"
+dependencies = [
+    "freetype",
+    "liborbital",
+    "libpng",
+    "sdl",
+    "xz",
+    "zlib",
+]
