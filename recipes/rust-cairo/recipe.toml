@@ -1,0 +1,17 @@
+#TODO maybe wrong
+[source]
+git = "https://gitlab.redox-os.org/redox-os/rust-cairo.git"
+[build]
+template = "custom"
+dependencies = [
+    "cairo",
+    "expat",
+    "fontconfig",
+    "freetype",
+    "libpng",
+    "pixman",
+    "zlib",
+]
+script = """
+cookbook_cargo_examples gui
+"""
