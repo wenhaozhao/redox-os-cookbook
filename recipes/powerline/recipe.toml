@@ -1,0 +1,5 @@
+#TODO "--no-default-features --features chrono" Cargo flags
+[source]
+git = "https://github.com/jD91mZM2/powerline-rs"
+[build]
+template = "cargo"
