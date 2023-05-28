@@ -1,0 +1,8 @@
+#TODO missing script
+[source]
+tar = "ftp://ftp.freedesktop.org/pub/mesa/glu/glu-9.0.1.tar.xz
+[build]
+template = "custom"
+dependencies = [
+    "mesa",
+]
