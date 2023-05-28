@@ -1,0 +1,12 @@
+#TODO maybe missing stuff
+[source]
+tar = "https://dev.yorhel.nl/download/ncdu-1.13.tar.gz"
+[build]
+template = "configure"
+dependencies = [
+    "ncurses",
+]
+[package]
+dependencies = [
+    "terminfo",
+]
