@@ -1,0 +1,8 @@
+#TODO Missing script for configure flags?
+[source]
+tar = "http://files.freeciv.org/stable/freeciv-2.6.6.tar.bz2
+patches = [
+    "01_redox.patch",
+]
+[build]
+template = "custom"
