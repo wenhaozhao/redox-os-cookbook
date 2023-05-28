@@ -1,0 +1,9 @@
+#TODO maybe missing stuff
+[source]
+git = "https://github.com/abishekvashok/cmatrix"
+[build]
+template = "configure"
+dependencies = [
+    "ncurses",
+    "terminfo",
+]
