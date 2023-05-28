@@ -1,0 +1,13 @@
+#TODO maybe wrong template
+[source]
+tar = "https://sourceforge.net/projects/sdlgfx/files/SDL_gfx-2.0.25.tar.gz"
+patches = [
+    "01_redox.patch",
+]
+[build]
+template = "configure"
+dependencies = [
+    "sdl",
+    "liborbital",
+    "libiconv",
+]
