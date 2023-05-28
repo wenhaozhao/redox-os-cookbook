@@ -1,0 +1,13 @@
+#TODO maybe missing stuff
+[source]
+tar = "https://www.cairographics.org/releases/cairo-1.16.0.tar.xz"
+[build]
+template = "configure"
+dependencies = [
+    "expat",
+    "freetype",
+    "fontconfig",
+    "libpng",
+    "pixman",
+    "zlib",
+]
