@@ -1,0 +1,8 @@
+#TODO maybe missing stuff
+[source]
+tar = "https://ftp.gnu.org/gnu/grep/grep-3.1.tar.xz"
+patches = [
+    "grep.patch",
+]
+[build]
+template = "configure"
