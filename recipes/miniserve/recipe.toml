@@ -1,0 +1,4 @@
+[source]
+git = "https://gitlab.redox-os.org/redox-os/miniserve"
+[build]
+template = "cargo"
