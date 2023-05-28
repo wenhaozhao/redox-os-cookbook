@@ -1,0 +1,8 @@
+#TODO make-ony build system
+[source]
+tar = "https://dukeworld.com/eduke32/synthesis/20181010-7067/eduke32_src_20181010-7067.tar.xz"
+patches = [
+    "redox.patch",
+]
+[build]
+template = "custom"
