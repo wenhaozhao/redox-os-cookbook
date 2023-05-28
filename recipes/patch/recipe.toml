@@ -1,0 +1,7 @@
+#TODO maybe wrong
+[source]
+tar = "https://ftp.gnu.org/gnu/patch/patch-2.7.6.tar.xz"
+patches = [
+    "01-no-rlimit.patch",
+    "02-no-chown.patch",
+]
