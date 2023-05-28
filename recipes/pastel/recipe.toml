@@ -1,9 +1,13 @@
-GIT=https://gitlab.redox-os.org/redox-os/pastel.git
-GIT_UPSTREAM=https://github.com/robbycerantola/pastel.git
-BINDIR=/ui/bin
-DEPENDS="orbital"
-
-function recipe_stage {
+#TODO maybe wrong
+[source]
+git = "https://gitlab.redox-os.org/redox-os/pastel.git"
+[build]
+template = "custom"
+[package]
+dependencies = [
+    "orbital",
+]
+script = """
 	mkdir "$1/ui"
 	cp -rv res "$1/ui/pastel"
 	mkdir "$1/ui/apps"
@@ -18,4 +22,5 @@ function recipe_stage {
 	author=Robby Cerantola
 	description=Bitmap Editor
 	EOF
-}
+cookbook_cargo
+"""
