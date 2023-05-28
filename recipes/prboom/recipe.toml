@@ -1,0 +1,15 @@
+#TODO missing script
+[source]
+tar = "https://downloads.sourceforge.net/project/prboom/prboom%20stable/2.5.0/prboom-2.5.0.tar.gz"
+patches = [
+    "01_redox.patch",
+]
+[build]
+template = "custom"
+dependencies = [
+    "sdl",
+    "liborbital",
+    "sdl_mixer",
+    "libogg",
+    "libvorbis",
+]
