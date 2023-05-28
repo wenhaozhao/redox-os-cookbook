@@ -1,0 +1,16 @@
+#TODO missing script for Meson-based build system
+[source]
+tar = "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.20.6.tar.xz"
+patches = [
+    "redox.patch",
+]
+[build]
+template = "custom"
+dependencies = [
+    "gettext",
+    "glib",
+    "libffi",
+    "libiconv",
+    "pcre",
+    "zlib",
+]
