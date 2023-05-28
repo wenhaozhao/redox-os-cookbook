@@ -1,23 +1,14 @@
-GIT=https://gitlab.redox-os.org/redox-os/freedoom.git
-DEPENDS=(ion prboom)
-
-function recipe_version {
-    echo "0.11.3"
-    skip=1
-}
-
-function recipe_build {
-    echo "skipping build"
-    skip=1
-}
-
-function recipe_clean {
-    echo "skipping clean"
-    skip=1
-}
-
-function recipe_stage {
-    mkdir -pv "$1/games" "$1/share/games/doom" "$1/ui/apps" "$1/ui/icons/apps"
+#TODO WAD installation
+[source]
+git = "https://gitlab.redox-os.org/redox-os/freedoom.git"
+[build]
+template = "custom
+dependencies = [
+    "ion",
+    "prboom",
+]
+script = """
+mkdir -pv "$1/games" "$1/share/games/doom" "$1/ui/apps" "$1/ui/icons/apps"
     for file in ./*.wad
     do
         game="$(basename "$file" .wad)"
@@ -37,5 +28,4 @@ function recipe_stage {
 
         cp -v "$game.png" "$1/ui/icons/apps/$game.png"
     done
-    skip=1
-}
+"""
