@@ -1,0 +1,15 @@
+#TODO missing script
+[source]
+tar = "https://www.kernel.org/pub/software/scm/git/git-2.13.1.tar.xz"
+patches = [
+    "git.patch",
+]
+[build]
+template = "custom"
+dependencies = [
+    "zlib",
+    "curl",
+    "openssl",
+    "expat",
+    "nghttp2",
+]
