@@ -1,0 +1,6 @@
+#TODO missing script and "--no-default-features" Cargo flag
+[source]
+git = "https://github.com/RustPython/RustPython"
+branch = "redox-release"
+[build]
+template = "custom"
