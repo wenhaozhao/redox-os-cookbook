@@ -1,0 +1,10 @@
+#TODO missing script
+[source]
+git = "https://github.com/AlisterT/openjazz"
+[build]
+template = "custom"
+dependencies = [
+    "sdl",
+    "liborbital",
+    "zlib",
+]
