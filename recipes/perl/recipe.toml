@@ -1,0 +1,8 @@
+#TODO missing script
+[source]
+tar = "http://www.cpan.org/src/5.0/perl-5.24.2.tar.gz"
+patches = [
+    "perl.patch",
+]
+[build]
+template = "custom"
