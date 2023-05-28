@@ -1,0 +1,17 @@
+#TODO missing script
+[source]
+git = "https://gitlab.redox-os.org/redox-os/gigalomania.git"
+branch = "master"
+[build]
+template = "custom"
+dependencies = [
+    "sdl_mixer",
+    "sdl_image",
+    "sdl",
+    "liborbital",
+    "libogg",
+    "libpng",
+    "libjpeg",
+    "libvorbis",
+    "zlib",
+]
