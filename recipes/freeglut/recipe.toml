@@ -1,0 +1,9 @@
+#TODO Missing script for build system
+[source]
+tar = "https://cytranet.dl.sourceforge.net/project/freeglut/freeglut/3.0.0/freeglut-3.0.0.tar.gz"
+[build]
+template = "custom"
+dependencies = [
+    "mesa",
+    "mesa_glu",
+]
