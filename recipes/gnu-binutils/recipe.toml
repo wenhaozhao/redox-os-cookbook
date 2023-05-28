@@ -1,0 +1,10 @@
+#TODO missing script
+[source]
+git = "https://gitlab.redox-os.org/redox-os/binutils-gdb.git"
+branch = "redox"
+[build]
+template = "custom"
+dependencies = [
+    "expat",
+    "libgmp",
+]
