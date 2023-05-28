@@ -6,3 +6,8 @@ patches = [
 ]
 [build]
 template = "configure"
+dependencies = [
+    "sdl",
+    "liborbital",
+    "libiconv",
+]
