@@ -1,0 +1,21 @@
+#TODO missing script
+[source]
+tar = "https://neverball.org/neverball-1.6.0.tar.gz"
+patches = [
+    "redox.patch",
+]
+[build]
+template = "custom"
+dependencies = [
+    "freetype",
+    "libjpeg",
+    "libogg",
+    "liborbital",
+    "libpng",
+    "libvorbis",
+    "llvm",
+    "mesa",
+    "sdl2",
+    "sdl2_ttf",
+    "zlib",
+]
