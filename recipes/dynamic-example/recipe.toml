@@ -1,0 +1,5 @@
+#TODO "-- -C target-feature=-crt-static" Cargo flags
+[source]
+git = "https://gitlab.redox-os.org/redox-os/dynamic-example"
+[build]
+template = "cargo"
