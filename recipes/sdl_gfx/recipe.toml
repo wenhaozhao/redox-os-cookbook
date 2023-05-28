@@ -1,11 +1,11 @@
-#TODO maybe wrong template
+#TODO missing script
 [source]
 tar = "https://sourceforge.net/projects/sdlgfx/files/SDL_gfx-2.0.25.tar.gz"
 patches = [
     "01_redox.patch",
 ]
 [build]
-template = "configure"
+template = "custom"
 dependencies = [
     "sdl",
     "liborbital",
