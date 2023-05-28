@@ -1,0 +1,8 @@
+#TODO maybe wrong
+[source]
+tar = "https://www.cairographics.org/releases/pixman-0.42.2.tar.gz"
+patches = [
+    "redox.patch",
+]
+[build]
+template = "configure"
