@@ -1,0 +1,12 @@
+#TODO maybe missing stuff
+[source]
+tar = "https://sourceforge.net/projects/dosbox/files/dosbox/0.74/dosbox-0.74-3.tar.gz/download
+patches = [
+    "01_redox.patch",
+]
+[build]
+template = "configure"
+dependencies = [
+    "sdl",
+    "liborbital",
+]
