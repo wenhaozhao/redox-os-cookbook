@@ -1,0 +1,13 @@
+#TODO Not tested
+[source]
+git = "https://gitlab.redox-os.org/redox-os/rustual-boy.git"
+branch = "redox"
+[build]
+template = "custom"
+script = """
+cookbook_cargo_packages rustual-boy-cli
+"""
+[package]
+dependencies = [
+    "orbital",
+]
