@@ -1,0 +1,8 @@
+[source]
+tar = "https://ftp.gnu.org/gnu/ncurses/ncurses-6.4.tar.gz"
+[build]
+template = "configure"
+[package]
+dependencies = [
+    "terminfo",
+]
