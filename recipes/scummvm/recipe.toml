@@ -1,0 +1,15 @@
+#TODO missing script
+[source]
+tar = "https://downloads.scummvm.org/frs/scummvm/2.0.0/scummvm-2.0.0.tar.xz"
+patches = [
+    "01_redox.patch",
+]
+[build]
+template = "custom"
+dependencies = [
+    "sdl",
+    "liborbital",
+    "freetype",
+    "zlib",
+    "libpng",
+]
