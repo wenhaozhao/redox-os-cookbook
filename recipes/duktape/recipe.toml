@@ -1,0 +1,8 @@
+#TODO make-only build system?
+[source]
+tar = "https://duktape.org/duktape-2.7.0.tar.xz"
+patches = [
+    "redox.patch",
+]
+[build]
+template = "custom"
