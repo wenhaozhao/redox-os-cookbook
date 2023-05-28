@@ -1,0 +1,12 @@
+#TODO missing script
+[source]
+git = "https://github.com/visit1985/mdp.git"
+[build]
+template = "custom"
+dependencies = [
+    "ncursesw",
+]
+[package]
+dependencies = [
+    "terminfo",
+]
