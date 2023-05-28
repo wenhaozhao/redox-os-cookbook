@@ -1,0 +1,8 @@
+#TODO make-only build system?
+[source]
+tar = "http://www.etalabs.net/releases/libc-bench-20110206.tar.gz"
+patches = [
+    "redox.patch",
+]
+[build]
+template = "custom"
