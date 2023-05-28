@@ -1,0 +1,16 @@
+#TODO missing script for Meson-based build system
+[source]
+tar = "https://ftp.gnome.org/pub/gnome/sources/gdk-pixbuf/2.38/gdk-pixbuf-2.38.1.tar.xz"
+[build]
+template = "custom"
+dependencies = [
+    "gettext",
+    "glib",
+    "libffi",
+    "libiconv",
+    "libjpeg",
+    "libpng",
+    "pcre",
+    "shared-mime-info",
+    "zlib",
+]
