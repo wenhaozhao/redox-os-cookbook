@@ -1,0 +1,15 @@
+#TODO maybe missing stuff
+[source]
+tar = "https://download.gnome.org/sources/atk/2.26/atk-2.26.1.tar.xz"
+patches = [
+    "redox.patch",
+]
+[build]
+template = "configure"
+dependencies = [
+    "gettext",
+    "glib",
+    "libffi",
+    "libiconv",
+    "pcre",
+]
