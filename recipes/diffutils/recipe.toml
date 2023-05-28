@@ -1,0 +1,8 @@
+#TODO maybe missing stuff
+[source]
+tar = "https://ftp.gnu.org/gnu/diffutils/diffutils-3.6.tar.xz"
+patches = [
+    "diffutils.patch",
+]
+[build]
+template = "configure"
