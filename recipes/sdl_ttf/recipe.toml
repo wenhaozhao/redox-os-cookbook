@@ -1,0 +1,15 @@
+#TODO missing script
+[source]
+tar = "https://www.libsdl.org/projects/SDL_ttf/release/SDL_ttf-2.0.11.tar.gz"
+patches = [
+    "01_redox.patch",
+]
+[build]
+template = "custom"
+dependencies = [
+    "sdl",
+    "liborbital",
+    "freetype",
+    "libpng",
+    "zlib",
+]
