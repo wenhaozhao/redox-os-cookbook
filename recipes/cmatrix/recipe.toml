@@ -5,5 +5,8 @@ git = "https://github.com/abishekvashok/cmatrix"
 template = "configure"
 dependencies = [
     "ncurses",
+]
+[package]
+dependencies = [
     "terminfo",
 ]
