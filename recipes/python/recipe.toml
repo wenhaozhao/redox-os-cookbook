@@ -1,0 +1,11 @@
+#TODO missing script
+[source]
+tar = "https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tar.xz"
+patches = [
+    "redox.patch",
+]
+[build]
+template = "custom"
+dependencies = [
+    "openssl",
+]
