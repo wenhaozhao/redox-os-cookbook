@@ -1,0 +1,26 @@
+#TODO missing script
+[source]
+tar = "http://download.netsurf-browser.org/netsurf/releases/source-full/netsurf-all-3.10.tar.gz"
+patches = [
+    "01_redox.patch",
+]
+[build]
+template = "custom"
+dependencies = [
+    "curl",
+    "expat",
+    "libjpeg",
+    "libpng",
+    "nghttp2",
+    "openssl",
+    "sdl",
+    "zlib",
+    "freetype",
+    "liborbital",
+    "libiconv",
+]
+[package]
+dependencies = [
+    "orbital",
+    "ca-certificates",
+]
