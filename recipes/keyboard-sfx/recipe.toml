@@ -1,0 +1,9 @@
+#TODO maybe missing stuff
+[source]
+git = "https://gitlab.redox-os.org/redox-os/keyboard-sfx.git"
+[build]
+template = "custom"
+script = """
+    mkdir -pv "$1/sfx"
+    cp -Rv ./* "$1/sfx"
+"""
