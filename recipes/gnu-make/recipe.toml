@@ -1,0 +1,8 @@
+#TODO maybe missing stuff
+[source]
+tar = "https://ftp.gnu.org/gnu/make/make-4.2.1.tar.gz"
+patches = [
+    "make.patch",
+]
+[build]
+template = "configure"
