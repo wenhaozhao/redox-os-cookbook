@@ -1,0 +1,12 @@
+#TODO missing script
+[source]
+tar = "https://ftp.gnu.org/gnu/ncurses/ncurses-6.4.tar.gz"
+patches = [
+    "01-config-sub.patch",
+]
+[build]
+template = "custom"
+[package]
+dependencies = [
+    "terminfo",
+]
