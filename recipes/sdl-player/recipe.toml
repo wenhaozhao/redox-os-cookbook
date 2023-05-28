@@ -1,0 +1,11 @@
+#TODO missing script
+[source]
+git = "https://gitlab.redox-os.org/redox-os/sdl-player.git"
+[build]
+template = "custom"
+dependencies = [
+    "ffmpeg",
+    "liborbital",
+    "sdl",
+    "zlib",
+]
