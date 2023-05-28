@@ -5,3 +5,5 @@ patches = [
     "01-no-rlimit.patch",
     "02-no-chown.patch",
 ]
+[build]
+template = "configure"
