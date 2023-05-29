@@ -1,0 +1,15 @@
+#TODO maybe wrong template
+[source]
+tar = "https://gitlab.freedesktop.org/xdg/shared-mime-info/-/archive/2.2/shared-mime-info-2.2.tar.gz"
+[build]
+template = "configure"
+dependencies = [
+    "gettext",
+    "glib",
+    "libffi",
+    "libiconv",
+    "libxml2",
+    "pcre",
+    "xz",
+    "zlib",
+]
