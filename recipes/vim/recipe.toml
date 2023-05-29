@@ -1,0 +1,15 @@
+#TODO missing script
+[source]
+tar = "http://ftp.vim.org/vim/unix/vim-8.2.tar.bz2"
+patches = [
+    "vim.patch",
+]
+[build]
+template = "custom"
+dependencies = [
+    "ncurses",
+]
+[package]
+dependencies = [
+    "terminfo",
+]
