@@ -1,0 +1,34 @@
+#TODO incomplete script
+[source]
+git = "https://github.com/wesnoth/wesnoth.git"
+branch = "1.14.6"
+[build]
+template = "custom"
+dependencies = [
+    "cairo",
+    "freetype",
+    "glib",
+    "libjpeg",
+    "liborbital",
+    "libpng",
+    "libvorbis",
+    "llvm",
+    "mesa",
+    "mesa_glu",
+    "pcre",
+    "pixman",
+    "sdl2",
+    "sdl2_image",
+    "sdl2_mixer",
+    "sdl2_ttf",
+    "zlib",
+]
+script = """
+COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+)
+"""
