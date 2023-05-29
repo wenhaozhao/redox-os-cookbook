@@ -1,0 +1,22 @@
+#TODO missing script
+[source]
+git = "https://github.com/angelXwind/OpenSyobonAction"
+patches = [
+    "01_redox.patch",
+]
+[build]
+template = "custom"
+dependencies = [
+    "sdl",
+    "liborbital",
+    "sdl_mixer",
+    "sdl_image",
+    "sdl_gfx",
+    "sdl_ttf",
+    "freetype",
+    "libjpeg",
+    "libpng",
+    "zlib",
+    "libogg",
+    "libvorbis",
+]
