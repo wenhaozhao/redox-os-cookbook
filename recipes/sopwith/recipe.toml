@@ -1,0 +1,10 @@
+#TODO missing script
+[source]
+tar = "https://sourceforge.net/projects/sdl-sopwith/files/sdl_sopwith/1.8.4/sopwith-1.8.4.tar.gz/download"
+[build]
+template = "custom"
+dependencies = [
+    "sdl",
+    "liborbital",
+    "libiconv",
+]
