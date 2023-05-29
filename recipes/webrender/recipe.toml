@@ -1,0 +1,13 @@
+#TODO maybe wrong
+[source]
+git = "https://gitlab.redox-os.org/redox-os/webrender.git"
+branch = "redox"
+[build]
+template = "cargo"
+dependencies = [
+    "freetype",
+    "libpng",
+    "llvm",
+    "mesa",
+    "zlib",
+]
