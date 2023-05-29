@@ -1,0 +1,11 @@
+#TODO maybe wrong
+[source]
+tar = "https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.tar.xz"
+[build]
+template = "custom"
+script = """
+    dest="$(realpath "$1")"
+    for file in *.ttf; do
+        install -D -m 644 "$file" "$dest/ui/fonts/Mono/Hack/$file"
+    done
+"""
