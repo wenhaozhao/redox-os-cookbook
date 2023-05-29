@@ -1,0 +1,19 @@
+#TODO missing script
+[source]
+git = "https://gitlab.redox-os.org/redox-os/servo.git"
+branch = "redox"
+[build]
+template = "custom"
+dependencies = [
+    "freetype",
+    "gettext",
+    "glib",
+    "gstreamer",
+    "harfbuzz",
+    "libffi",
+    "libiconv",
+    "libpng",
+    "openssl",
+    "pcre",
+    "zlib",
+]
