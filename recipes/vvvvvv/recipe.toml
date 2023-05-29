@@ -1,0 +1,29 @@
+#TODO maybe wrong
+[source]
+git = "https://github.com/xTibor/VVVVVV"
+branch = "redox"
+[build]
+template = "custom"
+dependencies = [
+    "sdl2_image",
+    "sdl2_mixer",
+    "sdl2",
+    "liborbital",
+    "llvm",
+    "mesa",
+    "mesa_glu",
+    "zlib",
+    "libogg",
+    "libvorbis",
+]
+script = """
+COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+    -DSDL2_INCLUDE_DIRS="$sysroot/include/SDL2"
+    -DSDL2_LIBRARIES="-static -lSDL2main -lSDL2_mixer -lSDL2 $("${PKG_CONFIG}" --libs glu) -lorbital -lz -lvorbisfile -lvorbis -logg"
+)
+"""
