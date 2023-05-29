@@ -1,0 +1,8 @@
+#TODO maybe wrong
+[source]
+tar = "https://invisible-island.net/archives/vttest/vttest-20140305.tgz"
+patches = [
+    "vttest.patch",
+]
+[build]
+template = "configure"
