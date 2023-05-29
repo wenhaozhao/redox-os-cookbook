@@ -1,0 +1,5 @@
+#TODO missing script and "--no-default-features --features bin,termion" Cargo flags.
+[source]
+git = "https://github.com/jD91mZM2/termplay.git"
+[build]
+template = "custom"
