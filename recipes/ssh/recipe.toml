@@ -1,0 +1,12 @@
+#TODO maybe missing stuff
+[source]
+tar = "http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-7.9p1.tar.gz"
+patches = [
+    "redox.patch",
+]
+[build]
+template = "configure"
+dependencies = [
+    "openssl",
+    "zlib",
+]
