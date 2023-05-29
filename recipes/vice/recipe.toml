@@ -1,0 +1,12 @@
+#TODO missing script
+[source]
+tar = "https://sourceforge.net/projects/vice-emu/files/releases/vice-3.3.tar.gz/download"
+patches = [
+    "01_redox.patch",
+]
+[build]
+template = "custom"
+dependencies = [
+    "sdl",
+    "liborbital",
+]
