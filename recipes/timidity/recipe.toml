@@ -1,0 +1,10 @@
+#TODO maybe wrong
+[source]
+git = "https://gitlab.redox-os.org/redox-os/timidity.git"
+branch = "redox"
+[build]
+template = "configure"
+[package]
+dependencies = [
+    "generaluser-gs",
+]
