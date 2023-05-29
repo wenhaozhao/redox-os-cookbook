@@ -1,0 +1,9 @@
+#TODO maybe wrong
+[source]
+git = "https://github.com/sajattack/terminfo"
+[build]
+template = "custom"
+script = """
+    mkdir -p ../stage/share
+    cp -r  * ../stage/share/
+"""
