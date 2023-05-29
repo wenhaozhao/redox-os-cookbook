@@ -1,0 +1,5 @@
+#TODO missing script and "--features orbital" Cargo flag
+[source]
+git = "https://gitlab.redox-os.org/redox-os/sodium.git"
+[build]
+template = "custom"
