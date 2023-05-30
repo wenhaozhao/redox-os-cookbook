@@ -4,5 +4,5 @@ git = "https://github.com/K4rakara/freshfetch"
 [build]
 template = "custom"
 script = """
-cookbook_cargo_packages vv
+cookbook_cargo_packages -vv
 """
