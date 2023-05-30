@@ -1,5 +1,5 @@
-#TODO
+#TODO require X11 and make-only build system
 [source]
 git = "https://github.com/yaa110/cb"
 [build]
-template = "cargo"
+template = "custom"
