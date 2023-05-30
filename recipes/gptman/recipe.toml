@@ -1,4 +1,4 @@
-#TODO
+#TODO compiled but not tested
 [source]
 git = "https://github.com/rust-disk-partition-management/gptman"
 [build]
