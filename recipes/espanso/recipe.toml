@@ -1,5 +1,5 @@
-#TODO
+#TODO missing script and require cargo make installed on host system - https://sagiegurari.github.io/cargo-make/
 [source]
 tar = "https://github.com/espanso/espanso/archive/refs/tags/v2.1.8.tar.gz"
 [build]
-template = "cargo"
+template = "custom"
