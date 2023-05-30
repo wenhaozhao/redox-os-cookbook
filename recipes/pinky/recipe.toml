@@ -3,6 +3,9 @@
 git = "https://github.com/koute/pinky"
 [build]
 template = "custom"
+dependencies = [
+    "sdl2",
+]
 script = """
 cookbook_cargo_packages pinky-devui
 """
