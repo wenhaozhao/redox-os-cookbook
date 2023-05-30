@@ -1,4 +1,4 @@
-#TODO Compilation error
+#TODO program source code error
 [source]
 tar = "https://github.com/solidiquis/erdtree/archive/refs/tags/v2.0.0.tar.gz"
 [build]
