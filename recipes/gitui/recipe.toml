@@ -2,7 +2,12 @@
 [source]
 tar = "https://github.com/extrawurst/gitui/archive/refs/tags/v0.22.1.tar.gz"
 [build]
-template = "cargo"
+template = "custom"
 dependencies = [
     "openssl",
 ]
+script = """
+export OPENSSL_DIR="${COOKBOOK_SYSROOT}"
+export OPENSSL_STATIC="true"
+cookbook_cargo
+"""
