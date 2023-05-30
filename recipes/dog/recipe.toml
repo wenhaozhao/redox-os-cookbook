@@ -3,3 +3,6 @@
 git = "https://github.com/ogham/dog"
 [build]
 template = "cargo"
+dependencies = [
+    "openssl",
+]
