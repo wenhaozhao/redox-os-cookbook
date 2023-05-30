@@ -1,4 +1,4 @@
-#TODO
+#TODO require GTK3
 [source]
 tar = "https://github.com/lapce/lapce/archive/refs/tags/v0.2.7.tar.gz"
 [build]
