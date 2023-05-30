@@ -1,4 +1,4 @@
-#TODO
+#TODO compiled but not tested
 [source]
 tar = "https://github.com/yamafaktory/jql/archive/refs/tags/jql-v6.0.8.tar.gz"
 [build]
