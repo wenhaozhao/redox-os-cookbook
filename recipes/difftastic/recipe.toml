@@ -1,4 +1,4 @@
-#TODO
+#TODO not compiled/tested yet
 [source]
 tar = "https://github.com/Wilfred/difftastic/archive/refs/tags/0.47.0.tar.gz"
 [build]
