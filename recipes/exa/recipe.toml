@@ -1,4 +1,4 @@
-#TODO Compilation error
+#TODO redox_syscall crate error
 [source]
 git = "https://github.com/ogham/exa"
 [build]
