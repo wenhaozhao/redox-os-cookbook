@@ -1,4 +1,4 @@
-#TODO compiled but not tested
+#TODO compiled but not tested, maybe needs to point the CLI program on the script
 [source]
 git = "https://github.com/rust-disk-partition-management/gptman"
 [build]
