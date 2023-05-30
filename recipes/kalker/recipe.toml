@@ -4,5 +4,5 @@ tar = "https://github.com/PaddiM8/kalker/archive/refs/tags/v2.0.3.tar.gz"
 [build]
 template = "custom"
 script = """
-cookbook_cargo_packages cli
+cookbook_cargo_packages kalker
 """
