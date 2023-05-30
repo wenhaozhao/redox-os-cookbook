@@ -1,8 +1,8 @@
-#TODO
+#TODO ring crate error
 [source]
 tar = "https://github.com/printfn/fend/archive/refs/tags/v1.1.6.tar.gz"
 [build]
 template = "custom"
 script = """
-cookbook_cargo_packages cli
+cookbook_cargo_packages fend
 """
