@@ -2,8 +2,11 @@
 [source]
 git = "https://github.com/imager-io/imager"
 [build]
-template = "cargo"
+template = "custom"
 dependencies = [
     "xz",
     "openssl",
 ]
+script = """
+cookbook_cargo_packages imager
+"""
