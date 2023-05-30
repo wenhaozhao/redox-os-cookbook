@@ -3,3 +3,6 @@
 tar = "https://github.com/extrawurst/gitui/archive/refs/tags/v0.22.1.tar.gz"
 [build]
 template = "cargo"
+dependencies = [
+    "openssl",
+]
