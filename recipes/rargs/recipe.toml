@@ -1,5 +1,5 @@
 #TODO
 [source]
-git "https://github.com/lotabout/rargs"
+git = "https://github.com/lotabout/rargs"
 [build]
 template = "cargo"
