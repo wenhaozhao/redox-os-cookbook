@@ -1,4 +1,4 @@
-#TODO
+#TODO weird error
 [source]
 tar = "https://github.com/pemistahl/grex/archive/refs/tags/v1.4.1.tar.gz"
 [build]
