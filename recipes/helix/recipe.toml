@@ -1,4 +1,4 @@
-#TODO Compilation error (ucred error on tokio crate)
+#TODO tokio crate error
 [source]
 tar = "https://github.com/helix-editor/helix/releases/download/23.05/helix-23.05-source.tar.xz"
 [build]
