@@ -1,4 +1,4 @@
-#TODO
+#TODO weird OpenSSL error?
 [source]
 git = "https://github.com/ogham/dog"
 [build]
