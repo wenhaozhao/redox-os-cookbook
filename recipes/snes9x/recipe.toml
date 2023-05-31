@@ -1,0 +1,20 @@
+#TODO Require GTK3?
+[source]
+tar = "https://github.com/snes9xgit/snes9x/archive/refs/tags/1.62.3.tar.gz"
+[build]
+template = "custom"
+dependencies = [
+    "sdl2",
+    "gtk3mm",
+    "libpng",
+    "zlib",
+]
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+    -DCMAKE_BUILD_TYPE=Release
+    -DCMAKE_CROSSCOMPILING=True
+    -DCMAKE_EXE_LINKER_FLAGS="-static"
+    -DCMAKE_INSTALL_PREFIX="/"
+)
+"""
