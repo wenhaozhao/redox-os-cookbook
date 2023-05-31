@@ -1,6 +1,5 @@
 #TODO Incomplete dependencies/script, confusing dependencies
 [source]
-git = "https://git.ardour.org/ardour/ardour"
-rev = "5e967c02a9cfc2fffadc9d0edca294ff193481fd"
+tar = "https://community.ardour.org/download?architecture=x86_64&type=source"
 [build]
 template = "custom"
