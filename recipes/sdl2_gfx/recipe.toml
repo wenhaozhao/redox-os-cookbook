@@ -1,0 +1,5 @@
+#TODO
+[source]
+tar = "https://sourceforge.net/projects/sdl2gfx/files/SDL2_gfx-1.0.4.tar.gz/download"
+[build]
+template = "configure"
