@@ -1,4 +1,4 @@
-#TODO
+#TODO tokio crate error
 [source]
 tar = "https://github.com/dbrgn/tealdeer/archive/refs/tags/v1.6.1.tar.gz"
 [build]
