@@ -1,0 +1,5 @@
+#TODO missing script
+[source]
+tar = "https://dev.mysql.com/downloads/file/?id=517869"
+[build]
+template = "custom"
