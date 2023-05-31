@@ -1,4 +1,4 @@
-#TODO
+#TODO can't update libc crate version
 [source]
 tar = "https://github.com/cfal/tobaru/archive/refs/tags/0.7.1.tar.gz"
 [build]
