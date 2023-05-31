@@ -1,6 +1,6 @@
 #TODO maybe wrong template
 [source]
-tar = "https://github.com/openjdk/jdk/archive/refs/tags/jdk-19+36.tar.gz"
+tar = "https://github.com/openjdk/jdk/archive/refs/tags/jdk-19-ga.tar.gz"
 [build]
 template = "configure"
 dependencies = [
