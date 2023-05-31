@@ -1,0 +1,20 @@
+#TODO
+[source]
+git = "https://github.com/JACoders/OpenJK"
+[build]
+template = "custom"
+dependencies = [
+    "libjpeg",
+    "libpng",
+    "sdl2",
+    "zlib",
+]
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+    -DCMAKE_BUILD_TYPE=Release
+    -DCMAKE_CROSSCOMPILING=True
+    -DCMAKE_EXE_LINKER_FLAGS="-static"
+    -DCMAKE_INSTALL_PREFIX="/"
+)
+"""
