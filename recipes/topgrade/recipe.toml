@@ -1,4 +1,4 @@
-#TODO
+#TODO compiled but not tested
 [source]
 tar = "https://github.com/topgrade-rs/topgrade/archive/refs/tags/v11.0.2.tar.gz"
 [build]
