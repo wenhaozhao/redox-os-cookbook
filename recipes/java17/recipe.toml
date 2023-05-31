@@ -1,0 +1,8 @@
+#TODO maybe wrong template
+[source]
+tar = "https://github.com/openjdk/jdk/archive/refs/tags/jdk-17+35.tar.gz"
+[build]
+template = "configure"
+dependencies = [
+    "fontconfig",
+]
