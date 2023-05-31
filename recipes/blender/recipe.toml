@@ -1,4 +1,4 @@
-#TODO
+#TODO require X11
 [source]
 tar = "https://download.blender.org/source/blender-3.5.1.tar.xz"
 [build]
