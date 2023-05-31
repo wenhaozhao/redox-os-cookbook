@@ -3,3 +3,12 @@
 tar = "https://community.ardour.org/download?architecture=x86_64&type=source"
 [build]
 template = "custom"
+dependencies = [
+    "atk",
+    "boost",
+    "fftw",
+    "freetype",
+    "gdk-pixbuf",
+    "glib",
+    "gobject-introspection",
+]
