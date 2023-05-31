@@ -1,4 +1,4 @@
-#TODO Compilation error
+#TODO tokio crate error
 [source]
 tar = "https://github.com/talis-fb/TReq/archive/refs/tags/v0.4.0.tar.gz"
 [build]
