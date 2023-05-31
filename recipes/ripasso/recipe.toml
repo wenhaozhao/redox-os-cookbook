@@ -3,6 +3,9 @@
 git = "https://github.com/cortex/ripasso"
 [build]
 template = "custom"
+dependencies = [
+    "openssl",
+]
 script = """
 cookbook_cargo_packages ripasso-cursive
 """
