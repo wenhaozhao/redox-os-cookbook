@@ -1,0 +1,21 @@
+#TODO
+[source]
+git = "https://github.com/Interrupt/systemshock"
+[build]
+template = "custom"
+dependencies = [
+    "sdl2",
+    "sdl2_mixer",
+]
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+    -DENABLE_SDL2=ON
+    -DENABLE_SOUND=ON
+    -DENABLE_FLUIDSYNTH=OFF
+)
+"""
