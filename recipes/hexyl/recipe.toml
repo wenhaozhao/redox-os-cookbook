@@ -1,4 +1,4 @@
-#TODO weird error
+#TODO compiled but not tested
 [source]
 tar = "https://github.com/sharkdp/hexyl/archive/refs/tags/v0.13.0.tar.gz"
 [build]
