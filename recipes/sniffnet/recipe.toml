@@ -1,0 +1,9 @@
+#TODO
+[source]
+tar = "https://github.com/GyulyVGC/sniffnet/archive/refs/tags/v1.2.0.tar.gz"
+[build]
+template = "cargo"
+dependencies = [
+    "libpcap",
+    "fontconfig",
+]
