@@ -1,4 +1,4 @@
-#TODO
+#TODO compiled but not tested
 [source]
 tar = "https://github.com/ismaelgv/rnr/archive/refs/tags/v0.4.2.tar.gz"
 [build]
