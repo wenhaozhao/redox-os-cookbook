@@ -1,0 +1,5 @@
+#TODO use Meson option to build as XWayland, explained here - https://wayland.freedesktop.org/xserver.html#heading_toc_j_3
+[source]
+tar = "https://www.x.org/releases/individual/xserver/xwayland-23.1.1.tar.xz"
+[build]
+template = "custom"
