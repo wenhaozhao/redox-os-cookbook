@@ -1,0 +1,9 @@
+#TODO
+[source]
+tar = "http://download.librdf.org/source/raptor2-2.0.16.tar.gz"
+[build]
+template = "configure"
+dependencies = [
+    "libxml2",
+    "libxslt",
+]
