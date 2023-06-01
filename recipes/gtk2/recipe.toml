@@ -1,0 +1,5 @@
+#TODO missing script
+[source]
+tar = "https://download.gnome.org/sources/gtk%2B/2.24/gtk%2B-2.24.33.tar.xz"
+[build]
+template = "custom"
