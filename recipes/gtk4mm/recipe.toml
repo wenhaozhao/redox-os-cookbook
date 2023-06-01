@@ -1,0 +1,5 @@
+#TODO missing script
+[source]
+tar = "https://download.gnome.org/sources/gtkmm/4.11/gtkmm-4.11.2.tar.xz"
+[build]
+template = "custom"
