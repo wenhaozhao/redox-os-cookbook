@@ -1,0 +1,5 @@
+#TODO missing script
+[source]
+tar = "https://www.x.org/releases/individual/lib/xtrans-1.4.0.tar.gz"
+[build]
+template = "custom"
