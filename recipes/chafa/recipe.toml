@@ -8,4 +8,5 @@ dependencies = [
     "glib",
     "imagemagick",
     "pcre",
+    "freetype",
 ]
