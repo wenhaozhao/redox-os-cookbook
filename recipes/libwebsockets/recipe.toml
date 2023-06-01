@@ -3,6 +3,9 @@
 tar = "https://github.com/warmcat/libwebsockets/archive/refs/tags/v4.3.2.tar.gz"
 [build]
 template = "custom"
+dependencies = [
+    "openssl",
+]
 script = """
     COOKBOOK_CONFIGURE="cmake"
     COOKBOOK_CONFIGURE_FLAGS=(
