@@ -1,5 +1,5 @@
 #TODO missing script, Meson build system
 [source]
-tar = "https://gitlab.com/drobilla/serd/-/archive/v0.30.16/serd-v0.30.16.tar.gz"
+tar = "https://download.drobilla.net/serd-0.30.16.tar.xz"
 [build]
 template = "custom"
