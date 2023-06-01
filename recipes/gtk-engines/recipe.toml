@@ -1,5 +1,5 @@
 #TODO missing script
 [source]
-tar = "https://download.gnome.org/sources/gtk-engines/2.20/gtk-engines-2.20.2.tar.gz"
+tar = "https://download.gnome.org/sources/gtk-engines/2.91/gtk-engines-2.91.1.tar.gz"
 [build]
 template = "custom"
