@@ -1,0 +1,5 @@
+#TODO
+[source]
+tar = "http://dev-www.libreoffice.org/src/cppunit-1.15.1.tar.gz"
+[build]
+template = "configure"
