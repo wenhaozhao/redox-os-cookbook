@@ -1,0 +1,5 @@
+#TODO Python library, missing script
+[source]
+tar = "https://github.com/RDFLib/rdflib/releases/download/6.3.2/rdflib-6.3.2.tar.gz"
+[build]
+template = "custom"
