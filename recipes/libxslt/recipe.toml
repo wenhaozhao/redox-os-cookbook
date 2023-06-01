@@ -1,0 +1,5 @@
+#TODO missing script
+[source]
+tar = "https://download.gnome.org/sources/libxslt/1.1/libxslt-1.1.38.tar.xz"
+[build]
+template = "custom"
