@@ -1,4 +1,4 @@
-#TODO Incomplete dependencies/script, confusing dependencies
+#TODO make the dependencies work and write the script, waf build system.
 [source]
 tar = "https://community.ardour.org/download?architecture=x86_64&type=source"
 [build]
