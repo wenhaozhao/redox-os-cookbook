@@ -3,3 +3,7 @@
 tar = "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.4.1.tar.bz2"
 [build]
 template = "configure"
+dependencies = [
+    "libiconv",
+    "libgcrypt",
+]
