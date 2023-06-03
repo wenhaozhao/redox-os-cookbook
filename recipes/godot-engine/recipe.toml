@@ -1,0 +1,9 @@
+#TODO Require X11 and SCons build system, custom script.
+[source]
+tar = "https://github.com/godotengine/godot/releases/download/4.0.3-stable/godot-4.0.3-stable.tar.xz"
+[build]
+template = "custom"
+dependencies = [
+    "mesa",
+    "mesa_glu",
+]
