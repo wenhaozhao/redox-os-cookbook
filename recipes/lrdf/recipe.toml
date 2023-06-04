@@ -1,5 +1,5 @@
-#TODO
+#TODO missing script
 [source]
 tar = "https://github.com/x42/LRDF/archive/refs/tags/0.5.1-rg.tar.gz"
 [build]
-template = "configure"
+template = "custom"
