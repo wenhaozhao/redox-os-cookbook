@@ -1,5 +1,10 @@
-#TODO
+#TODO dependencies needs to be fixed.
 [source]
 tar = "https://www.thrysoee.dk/editline/libedit-20221030-3.1.tar.gz"
 [build]
 template = "configure"
+dependencies = [
+    "ncurses",
+    "termcap",
+    "terminfo",
+]
