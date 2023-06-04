@@ -1,4 +1,4 @@
-#TODO Not compiled/tested yet
+#TODO compilation error
 [source]
 tar = "http://files.libburnia-project.org/releases/libisofs-1.5.4.tar.gz"
 blake3 = "d545df902568946f5bf400592ace11f07d78c3c89bd73993051916c043c3be52"
