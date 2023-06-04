@@ -1,4 +1,4 @@
-#TODO Not compiled/tested yet
+#TODO compilation error
 [source]
 tar = "http://www.freedesktop.org/software/startup-notification/releases/startup-notification-0.12.tar.gz"
 blake3 = "134131fdd210d2eaef76eda9826b4a832807aac231dba334f157751ed1d6da36"
