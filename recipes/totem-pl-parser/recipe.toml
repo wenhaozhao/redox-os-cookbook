@@ -1,4 +1,4 @@
-#TODO Not compiled/tested yet
+#TODO missing script
 [source]
 tar = "https://gitlab.gnome.org/GNOME/totem-pl-parser/-/archive/V_3_26_6/totem-pl-parser-V_3_26_6.tar.gz"
 [build]
