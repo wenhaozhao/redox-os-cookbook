@@ -1,4 +1,4 @@
-#TODO Not compiled/tested yet
+#TODO maybe wrong template
 [source]
 tar = "https://github.com/libgit2/libgit2/archive/refs/tags/v1.6.4.tar.gz"
 [build]
