@@ -1,4 +1,4 @@
-#TODO Not compiled/tested yet
+#TODO compilation error
 [source]
 tar = "http://ccrma.stanford.edu/software/stk/release/stk-4.6.2.tar.gz"
 blake3 = "beb7a1897b1a4e05c5caec87e74ef99fa6c8cec6704266df3d377e654025fecd"
