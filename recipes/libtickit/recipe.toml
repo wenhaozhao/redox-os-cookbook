@@ -1,5 +1,5 @@
-#TODO
+#TODO missing script
 [source]
 tar = "https://www.leonerd.org.uk/code/libtickit/libtickit-0.4.3.tar.gz"
 [build]
-template = "configure"
+template = "custom"
