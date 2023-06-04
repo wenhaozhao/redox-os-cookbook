@@ -1,6 +1,6 @@
-#TODO
+#TODO missing script
 [source]
 tar = "https://chromium.googlesource.com/webm/libvpx/+archive/v1.13.0.tar.gz"
 blake3 = "e3d04ce3efcc8933a2da50c6790cd7e85d8d913ff2b0a579035d78847685777a"
 [build]
-template = "configure"
+template = "custom"
