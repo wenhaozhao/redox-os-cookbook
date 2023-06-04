@@ -1,4 +1,4 @@
-#TODO
+#TODO maybe wrong script
 [source]
 tar = "https://github.com/kdudka/nss-pem/releases/download/nss-pem-1.1.0/nss-pem-1.1.0.tar.xz"
 [build]
