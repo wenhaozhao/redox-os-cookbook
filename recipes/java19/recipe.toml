@@ -1,4 +1,4 @@
-#TODO maybe wrong template
+#TODO non-sense "permission denied" error
 [source]
 tar = "https://github.com/openjdk/jdk/archive/refs/tags/jdk-19-ga.tar.gz"
 [build]
