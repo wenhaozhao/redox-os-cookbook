@@ -1,4 +1,4 @@
-#TODO Not compiled/tested yet, incomplete script (waf build system)
+#TODO missing script (waf build system)
 [source]
 git = "https://github.com/FWGS/xash3d-fwgs"
 [build]
