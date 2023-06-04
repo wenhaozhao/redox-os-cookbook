@@ -1,4 +1,4 @@
-#TODO
+#TODO make all dependencies compile
 [source]
 tar = "https://download.samba.org/pub/rsync/src/rsync-3.2.7.tar.gz"
 [build]
