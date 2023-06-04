@@ -1,4 +1,4 @@
-#TODO
+#TODO ring crate error
 [source]
 git = "https://github.com/osa1/tiny"
 [build]
