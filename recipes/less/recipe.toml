@@ -3,3 +3,7 @@
 tar = "https://www.greenwoodsoftware.com/less/less-633.tar.gz"
 [build]
 template = "configure"
+dependencies = [
+    "termcap",
+    "libvterm",
+]
