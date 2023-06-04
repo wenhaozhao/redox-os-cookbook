@@ -1,4 +1,4 @@
-#TODO Not compiled/tested yet, maybe wrong script
+#TODO missing script
 [source]
 tar = "https://gitlab.com/xonotic/xonotic/-/archive/xonotic-v0.8.5/xonotic-xonotic-v0.8.5.tar.gz"
 [build]
@@ -14,6 +14,3 @@ dependencies = [
     "curl",
     "rsync",
 ]
-script = """
-make
-"""
