@@ -1,4 +1,4 @@
-#TODO
+#TODO compilation error - cannot find required MD5 functions in libc or libmd
 [source]
 tar = "https://libbsd.freedesktop.org/releases/libbsd-0.11.7.tar.xz"
 [build]
