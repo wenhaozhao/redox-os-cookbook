@@ -1,4 +1,4 @@
-#TODO Not compiled/tested yet
+#TODO compilation error
 [source]
 tar = "https://ftpmirror.gnu.org/libtool/libtool-2.4.6.tar.gz"
 blake3 = "e4cf3c4fbffa3696f2470a05140e2c4aa5b0d8dd1d1e9241a2bd83c1f4086476"
