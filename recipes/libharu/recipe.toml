@@ -1,4 +1,4 @@
-#TODO
+#TODO maybe needs to run buildconf.sh before to create the configure file
 [source]
 tar = "https://github.com/libharu/libharu/archive/refs/tags/v2.4.3.tar.gz"
 [build]
