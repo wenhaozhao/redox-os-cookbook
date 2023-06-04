@@ -1,4 +1,4 @@
-#TODO Not compiled/tested yet
+#TODO waiting dependencies fix
 [source]
 tar = "https://download.gnome.org/sources/librsvg/2.56/librsvg-2.56.0.tar.xz"
 [build]
