@@ -1,4 +1,4 @@
-#TODO
+#TODO Perl module installation
 [source]
 tar = "https://github.com/mquinson/po4a/releases/download/v0.69/po4a-0.69.tar.gz"
 blake3 = "8a320c07eeefdb8f8f093a040ac321ba7602410df1d89c78fdecb836586850d8"
