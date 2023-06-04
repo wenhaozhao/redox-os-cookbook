@@ -1,6 +1,6 @@
 #TODO Not compiled/tested yet.
 [source]
-tar = "https://github.com/hrydgard/ppsspp.git"
+git = "https://github.com/hrydgard/ppsspp.git"
 [build]
 template = "custom"
 dependencies = [
