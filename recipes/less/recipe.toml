@@ -1,4 +1,4 @@
-#TODO
+#TODO waiting termcap fix
 [source]
 tar = "https://www.greenwoodsoftware.com/less/less-633.tar.gz"
 [build]
