@@ -1,4 +1,4 @@
-#TODO Not compiled/tested yet
+#TODO compilation error
 [source]
 tar = "http://files.libburnia-project.org/releases/libburn-1.5.4.tar.gz"
 blake3 = "50c9cfa8e92bb4faf148df6aeaaa0d02e380607714da49066d867a9d1ffcbe01"
