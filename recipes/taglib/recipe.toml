@@ -1,4 +1,4 @@
-#TODO Not compiled/tested yet
+#TODO maybe wrong script
 [source]
 tar = "https://taglib.org/releases/taglib-1.13.tar.gz"
 [build]
