@@ -1,6 +1,7 @@
 #TODO Needs to download the data files and a make-only build system - https://releases.wildfiregames.com/0ad-0.0.26-alpha-unix-data.tar.xz
 # The Atlas editor needs to be disabled with the build option --disable-atlas to avoid GTK3 dependency (WxWidgetsGTK)
 # Maybe needs to run update-workspaces.sh before
+# needs to package SpiderMonkey
 [source]
 tar = "https://releases.wildfiregames.com/0ad-0.0.26-alpha-unix-build.tar.xz"
 [build]
@@ -21,5 +22,5 @@ dependencies = [
     "openal",
     "sdl2",
     "zlib",
-    "mozjs",
+    "spidermonkey",
 ]
