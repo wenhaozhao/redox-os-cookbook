@@ -1,0 +1,8 @@
+#TODO make the Java dependency work and a script to install the .jar file
+[source]
+# needs to download a .jar file - https://github.com/Anuken/Mindustry/releases/download/v144.3/Mindustry.jar
+[build]
+template = "custom"
+dependencies = [
+    "java17",
+]
