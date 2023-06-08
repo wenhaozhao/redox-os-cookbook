@@ -1,0 +1,5 @@
+#TODO
+[source]
+git = "https://gitlab.com/whom/relish"
+[build]
+template = "cargo"
