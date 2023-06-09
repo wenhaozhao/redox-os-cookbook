@@ -1,8 +1,18 @@
-#TODO compiled but not tested
+#TODO not compiled/tested
 [source]
 tar = "https://www.fltk.org/pub/fltk/1.3.8/fltk-1.3.8-source.tar.bz2"
 [build]
 template = "custom"
+dependencies = [
+    "mesa_glu",
+    "freeglut",
+    "cairo"
+    "fontconfig",
+    "glew",
+    "libjpeg",
+    "libpng",
+    "pango",
+]
 script = """
     COOKBOOK_CONFIGURE="cmake"
     COOKBOOK_CONFIGURE_FLAGS=(
