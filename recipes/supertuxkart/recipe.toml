@@ -30,4 +30,5 @@ script = """
     -DNO_SHADERC=on
     -DBUILD_RECORDER=off
 )
+cookbook_configure
 """

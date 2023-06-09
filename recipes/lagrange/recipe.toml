@@ -25,6 +25,7 @@ script = """
     -DCMAKE_VERBOSE_MAKEFILE=On
     -DENABLE_MPG123=OFF
 )
+cookbook_configure
 """
 
 # mpg123 dependency broken
