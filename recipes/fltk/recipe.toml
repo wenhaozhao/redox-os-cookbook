@@ -12,6 +12,7 @@ dependencies = [
     "libjpeg",
     "libpng",
     "pango",
+    "zlib",
 ]
 script = """
     COOKBOOK_CONFIGURE="cmake"
@@ -24,6 +25,7 @@ script = """
     -DCMAKE_SYSTEM_NAME=Generic
     -DCMAKE_SYSTEM_PROCESSOR="$(echo "${TARGET}" | cut -d - -f1)"
     -DCMAKE_VERBOSE_MAKEFILE=On
+    -DOPTION_USE_CAIRO=ON
 "${COOKBOOK_SOURCE}"
 )
 cookbook_configure
