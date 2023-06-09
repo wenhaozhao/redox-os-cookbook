@@ -1,4 +1,4 @@
-#TODO compiled but not tested
+#TODO not compiled/tested
 [source]
 git = "https://github.com/vancegroup/freealut"
 [build]
