@@ -16,5 +16,7 @@ script = """
 	-DCMAKE_INSTALL_PREFIX="/"
     -DUSE_FFMPEG=OFF
     -DUSE_DISCORD=OFF
+"${COOKBOOK_SOURCE}"
 )
+cookbook_configure
 """

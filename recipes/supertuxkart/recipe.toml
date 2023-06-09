@@ -29,6 +29,7 @@ script = """
     -DCMAKE_VERBOSE_MAKEFILE=On
     -DNO_SHADERC=on
     -DBUILD_RECORDER=off
+"${COOKBOOK_SOURCE}"
 )
 cookbook_configure
 """

@@ -29,5 +29,7 @@ script = """
     -DBUILD_LLVM_SUBMODULE=OFF
     -DUSE_SYSTEM_FFMPEG=ON
     -DUSE_SYSTEM_LIBPNG=ON
+"${COOKBOOK_SOURCE}"
 )
+cookbook_configure
 """
