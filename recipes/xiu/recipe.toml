@@ -1,8 +1,11 @@
-#TODO tokio crate error
+#TODO OpenSSL error on program source code
 [source]
 tar = "https://github.com/harlanc/xiu/archive/refs/tags/v0.6.0.tar.gz"
 [build]
 template = "custom"
+dependencies = [
+    "openssl",
+]
 script = """
 cookbook_cargo_packages xiu
 """
