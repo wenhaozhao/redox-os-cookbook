@@ -1,8 +1,0 @@
-#TODO tokio crate error
-[source]
-tar = "https://github.com/warp-tech/russh/archive/refs/tags/v0.37.1.tar.gz"
-[build]
-template = "custom"
-script = """
-cookbook_cargo_packages russh
-"""
