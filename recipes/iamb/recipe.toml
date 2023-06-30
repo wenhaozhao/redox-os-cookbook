@@ -1,4 +1,4 @@
-#TODO tokio crate error
+#TODO Rust version error (after cargo update)
 [source]
 git = "https://github.com/ulyssa/iamb"
 [build]

@@ -1,4 +1,4 @@
-#TODO ring crate error
+#TODO weird OpenSSL error on compilation (after cargo update and Redox ring fork)
 [source]
 git = "https://github.com/dertuxmalwieder/yaydl"
 [build]

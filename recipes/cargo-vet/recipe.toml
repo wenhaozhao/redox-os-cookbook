@@ -1,4 +1,4 @@
-#TODO tokio crate error
+#TODO camino crate error (using cargo update and Redox ring fork)
 [source]
 git = "https://github.com/mozilla/cargo-vet"
 [build]

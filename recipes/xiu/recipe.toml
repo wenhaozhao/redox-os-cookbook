@@ -1,4 +1,4 @@
-#TODO OpenSSL error on program source code
+#TODO OpenSSL error on program source code (after cargo update)
 [source]
 tar = "https://github.com/harlanc/xiu/archive/refs/tags/v0.6.0.tar.gz"
 [build]

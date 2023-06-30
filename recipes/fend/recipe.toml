@@ -1,4 +1,4 @@
-#TODO ring crate error
+#TODO ring crate error (after cargo update and Redox ring fork)
 [source]
 tar = "https://github.com/printfn/fend/archive/refs/tags/v1.1.6.tar.gz"
 [build]

@@ -1,4 +1,4 @@
-#TODO tokio crate error
+#TODO make libgpg-error dependency work (after cargo update)
 [source]
 git = "https://github.com/cortex/ripasso"
 [build]

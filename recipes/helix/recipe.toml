@@ -1,4 +1,4 @@
-#TODO tokio crate error
+#TODO helix-term error (after cargo update)
 [source]
 tar = "https://github.com/helix-editor/helix/releases/download/23.05/helix-23.05-source.tar.xz"
 [build]
