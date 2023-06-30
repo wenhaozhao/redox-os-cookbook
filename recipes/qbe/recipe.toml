@@ -1,0 +1,5 @@
+#TODO make-only build system
+[source]
+tar = "https://c9x.me/compile/release/qbe-1.1.tar.xz"
+[build]
+template = "custom"
