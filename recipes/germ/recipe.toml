@@ -1,0 +1,5 @@
+#TODO
+[source]
+git = "https://github.com/volks73/germ"
+[build]
+template = "cargo"
