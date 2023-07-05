@@ -1,0 +1,5 @@
+#TODO
+[source]
+tar = "https://github.com/FineFindus/artem/archive/refs/tags/v1.2.1.tar.gz"
+[build]
+template = "cargo"
