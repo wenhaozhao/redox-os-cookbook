@@ -1,0 +1,5 @@
+#TODO probably wrong template
+[source]
+tar = "http://www.hpl.hp.com/research/linux/atomic_ops/download/libatomic_ops-1.2.tar.gz"
+[build]
+template = "configure"
