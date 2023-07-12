@@ -1,0 +1,11 @@
+#TODO GCC 11.3+ required and SCons build system script, the tools are separated and written in Go
+[source]
+tar = "https://github.com/mongodb/mongo/archive/refs/tags/r6.3.2.tar.gz"
+[build]
+template = "custom"
+dependencies = [
+    "curl",
+    "xz",
+    "python",
+    "openssl",
+]
