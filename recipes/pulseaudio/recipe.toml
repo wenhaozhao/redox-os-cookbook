@@ -1,0 +1,14 @@
+#TODO Meson build system script
+# https://cgit.freedesktop.org/pulseaudio/pulseaudio/tree/README#n33
+[source]
+tar = "https://freedesktop.org/software/pulseaudio/releases/pulseaudio-16.1.tar.xz"
+[build]
+template = "custom"
+dependencies = [
+    "libsndfile",
+    "libatomic_ops",
+    "speexdsp",
+    "libtool",
+    "json-c",
+    "gettext",
+]
