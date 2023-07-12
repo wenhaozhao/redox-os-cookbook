@@ -1,0 +1,5 @@
+#TODO Meson build system script and require libdrm-dev
+[source]
+tar = "https://github.com/intel/libva/releases/download/2.19.0/libva-2.19.0.tar.bz2"
+[build]
+template = "custom"
