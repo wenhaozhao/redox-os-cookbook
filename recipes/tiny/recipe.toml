@@ -1,6 +1,6 @@
 #TODO ring crate error
 [source]
-git = "https://github.com/osa1/tiny"
+tar = "https://github.com/osa1/tiny/archive/refs/tags/v0.11.0.tar.gz"
 [build]
 template = "custom"
 script = """
