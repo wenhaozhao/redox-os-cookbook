@@ -1,0 +1,8 @@
+#TODO
+[source]
+tar = "https://github.com/hinto-janai/festival/archive/refs/tags/gui-v1.1.0.tar.gz"
+[build]
+template = "custom"
+script = """
+cookbook_cargo_packages gui
+"""
