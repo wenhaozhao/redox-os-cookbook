@@ -1,0 +1,10 @@
+#TODO compiled but not tested
+[source]
+tar = "https://ftp.gnu.org/gnu/nettle/nettle-3.8.1.tar.gz"
+blake3 = "54bdebf2c6f154bcf2cce2b0a9923682f879e2716e78255e0d01f9f83e9dd756"
+[build]
+template = "configure"
+depencencies = [
+	"gnutls",
+    "libgmp",
+]
