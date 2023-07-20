@@ -1,0 +1,5 @@
+#TODO make-only build system?
+[source]
+tar = "https://github.com/kubernetes/kubernetes/archive/refs/tags/v1.25.10.tar.gz"
+[build]
+template = "custom"

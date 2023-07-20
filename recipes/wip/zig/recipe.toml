@@ -1,0 +1,14 @@
+#TODO Not compiled/tested yet
+[source]
+tar = "https://ziglang.org/download/0.10.1/zig-0.10.1.tar.xz"
+[build]
+template = "custom"
+script = """
+    COOKBOOK_CONFIGURE="cmake"
+    COOKBOOK_CONFIGURE_FLAGS=(
+	-DCMAKE_BUILD_TYPE=Release
+	-DCMAKE_CROSSCOMPILING=True
+	-DCMAKE_EXE_LINKER_FLAGS="-static"
+	-DCMAKE_INSTALL_PREFIX="/"
+)
+"""
